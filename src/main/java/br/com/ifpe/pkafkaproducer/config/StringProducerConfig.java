@@ -13,7 +13,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 
 @Configuration
-public class StringProducerFactoryConfig {
+public class StringProducerConfig {
 
     @Autowired
     private KafkaProperties properties;
